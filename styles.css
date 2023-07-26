@@ -65,22 +65,19 @@
    
 }
 
-.footer-col{
+.link-boxes{
     width: 25%;
     padding: 50px 15px;
 }
-.footer-col h4{
+.link-boxes h4{
     font-size: 22px;
     font-weight: 500;
     position: relative;
     margin-bottom: 30px;
     
 }
-.link-boxes{
-  display: flex;
-}
 
-.footer-col h4::before{
+.link-boxes h4::before{
     content: '';
     position: absolute;
     left: 0;
@@ -91,16 +88,16 @@
     width: 50px;
 }
 
-.footer-col ul li :not(:last-child){
+.link-boxes ul li :not(:last-child){
     margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.link-boxes ul li a{
     font-size: 18px;
     text-decoration: none;
     color: #bbbb;
 }
-.footer-col .contact li{
+.link-boxes .contact li{
     color: #bbbb;
     font-size: 18px;
 }
@@ -112,7 +109,7 @@ ul{
 
 /* responsive */
 @media(max-width: 767px){
-    .footer-col{
+    .link-boxes{
         width: 50%;
         margin-bottom: 30px;
     }
@@ -120,7 +117,7 @@ ul{
 }
 
 @media(max-width: 574px){
-    .footer-col{
+    .link-boxes{
         width: 100%;
     }
     
