@@ -95,6 +95,7 @@ ul{
 .bottom-details{
   background-color: rgb(123, 117, 117);
   max-width: 100%;
+  color:white;
   border: 1px solid green;
   display: flex;
   justify-content: space-between;
